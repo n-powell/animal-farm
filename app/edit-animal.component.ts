@@ -6,6 +6,7 @@ import { Animal } from './animal.model';
   template:`
     <div>
       <div *ngIf="childSelectedAnimal">
+        <h2>Edit Animal Information</h2>
         <div class="form-group">
           <label>Species:</label>
           <input class="form-control" [(ngModel)]="childSelectedAnimal.species">
@@ -17,7 +18,7 @@ import { Animal } from './animal.model';
         <div class="form-group">
           <label>Age:</label>
           <input type="number" class="form-control" [(ngModel)]="childSelectedAnimal.age">
-        </div>
+      </div>
         <div class="form-group">
           <label>Diet:</label>
           <input class="form-control" [(ngModel)]="childSelectedAnimal.diet">
@@ -45,6 +46,10 @@ import { Animal } from './animal.model';
         <button (click)="doneButtonClicked()">Done</button>
       </div>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
   `
 })
 
