@@ -15,7 +15,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
  	</div>
  	<div class="form-group">
  		<label>Age:</label>
- 		<input class="form-control" #newAge>
+ 		<input type="number" class="form-control" #newAge>
  	</div>
  	<div class="form-group">
  		<label>Diet:</label>
@@ -27,7 +27,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
  	</div>
  	<div class="form-group">
  		<label>Caretakers:</label>
- 		<input class="form-control" #newCaretakers>
+ 		<input type="number" class="form-control" #newCaretakers>
  	</div>
  	<div class="form-group">
  		<label>Sex:</label>
