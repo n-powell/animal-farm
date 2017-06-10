@@ -1,16 +1,3 @@
-## Planning
-
-1. Configuration/dependencies
-  * Angular 2
-  * node 7.10.0
-  * bower
-
-2. Specs
-  * Spec 1: An employee should be given a form to input new detailed animals.
-  * Spec 2: When inputed into the system. Employees can view a list of animals with its unique info.
-  * Spec 3: Employees will be able to organize animals by age.
-  * Spec 3: Employees will be able to update animal information by clicking an edit button next to each animals details.
-
 
 # _Zoo Animal List_
 
@@ -45,3 +32,28 @@ _After inputting new arrivals. ZooKeepers have a list out of all animals. If des
 *This software is licensed under MIT license.*
 
 Copyright (c) 2017 **Nick Powell**
+
+
+## Planning
+
+1. Configuration/dependencies
+* Angular 2
+* node 7.10.0
+* bower
+
+2. Specs
+* Spec 1: An employee should be given a form to input new detailed animals.
+* Spec 2: When inputed into the system. Employees can view a list of animals with its unique info.
+* Spec 3: Employees will be able to organize animals by age.
+* Spec 3: Employees will be able to update animal information by clicking an edit button next to each animals details.
+
+## To-Do Planning
+
+* Add validations to input fields.
+* Add image input.
+* Add pipe for filtering of species.
+* Filter animals by caretakers required (accounting).
+* Add cost estimator for diet restriction (accounting).
+* Add zoo exhibit location tag to animals.
+* Zoo map and locator pin on map for animal locator.
+* Add images to README
